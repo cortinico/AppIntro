@@ -1,6 +1,7 @@
 package com.github.paolorotolo.appintro;
 
 import android.animation.ArgbEvaluator;
+import android.annotation.SuppressLint;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Vibrator;
@@ -117,12 +118,12 @@ public abstract class AppIntroBase extends AppCompatActivity implements
 
         if (doneButton != null) {
             doneButton.setOnClickListener(new View.OnClickListener() {
+                // Permission should be handled by the library user.
+                // We are ok with crashing here.
+                @SuppressLint("MissingPermission")
                 @Override
                 public void onClick(@NonNull View v) {
                     if (isVibrateOn) {
-                        // Permission should be handled by the library user.
-                        // We are ok with crashing here.
-                        @SuppressLint("MissingPermission")
                         mVibrator.vibrate(vibrateIntensity);
                     }
 
@@ -142,12 +143,12 @@ public abstract class AppIntroBase extends AppCompatActivity implements
 
         if (skipButton != null) {
             skipButton.setOnClickListener(new View.OnClickListener() {
+                // Permission should be handled by the library user.
+                // We are ok with crashing here.
+                @SuppressLint("MissingPermission")
                 @Override
                 public void onClick(@NonNull View v) {
                     if (isVibrateOn) {
-                        // Permission should be handled by the library user.
-                        // We are ok with crashing here.
-                        @SuppressLint("MissingPermission")
                         mVibrator.vibrate(vibrateIntensity);
                     }
                     onSkipPressed(mPagerAdapter.getItem(pager.getCurrentItem()));
@@ -981,12 +982,12 @@ public abstract class AppIntroBase extends AppCompatActivity implements
     }
 
     private final class NextButtonOnClickListener implements View.OnClickListener {
+        // Permission should be handled by the library user.
+        // We are ok with crashing here.
+        @SuppressLint("MissingPermission")
         @Override
         public void onClick(View v) {
             if (isVibrateOn) {
-                // Permission should be handled by the library user.
-                // We are ok with crashing here.
-                @SuppressLint("MissingPermission")
                 mVibrator.vibrate(vibrateIntensity);
             }
 
