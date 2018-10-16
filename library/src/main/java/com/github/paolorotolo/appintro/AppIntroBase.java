@@ -120,6 +120,9 @@ public abstract class AppIntroBase extends AppCompatActivity implements
                 @Override
                 public void onClick(@NonNull View v) {
                     if (isVibrateOn) {
+                        // Permission should be handled by the library user.
+                        // We are ok with crashing here.
+                        @SuppressLint("MissingPermission")
                         mVibrator.vibrate(vibrateIntensity);
                     }
 
@@ -142,6 +145,9 @@ public abstract class AppIntroBase extends AppCompatActivity implements
                 @Override
                 public void onClick(@NonNull View v) {
                     if (isVibrateOn) {
+                        // Permission should be handled by the library user.
+                        // We are ok with crashing here.
+                        @SuppressLint("MissingPermission")
                         mVibrator.vibrate(vibrateIntensity);
                     }
                     onSkipPressed(mPagerAdapter.getItem(pager.getCurrentItem()));
@@ -978,6 +984,9 @@ public abstract class AppIntroBase extends AppCompatActivity implements
         @Override
         public void onClick(View v) {
             if (isVibrateOn) {
+                // Permission should be handled by the library user.
+                // We are ok with crashing here.
+                @SuppressLint("MissingPermission")
                 mVibrator.vibrate(vibrateIntensity);
             }
 
