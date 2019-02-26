@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/appintro_background_color"
-    android:layoutDirection="ltr"
     tools:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
     <com.github.paolorotolo.appintro.AppIntroViewPager
@@ -56,7 +55,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="16dp"
-            android:layoutDirection="ltr"
             tools:background="@drawable/appintro_indicator_dot_selected" />
 
         <ImageButton

@@ -33,6 +33,7 @@ import androidx.annotation.ColorRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 import androidx.core.view.GestureDetectorCompat;
 import androidx.fragment.app.Fragment;
@@ -106,6 +107,14 @@ public abstract class AppIntroBase extends AppCompatActivity implements
         checkButton(doneButton, "done");
         checkButton(skipButton, "skip");
         checkButton(backButton, "back");
+
+        FrameLayout frameLayout = findViewById(R.id.indicator_container);
+        if (frameLayout != null && isRtl()) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                frameLayout.setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+                frameLayout.setRotation(180);
+            }
+        }
 
         if (isRtl()) {
             nextButton.setScaleX(-1);
