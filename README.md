@@ -31,11 +31,11 @@ a previous version of the library that uses the **old Support Library** packages
 ```gradle
 	dependencies {
 	        // AndroidX Capable version
-	        implementation 'com.github.AppIntro:AppIntro:5.1.0'
+	        implementation 'com.github.AppIntro:AppIntro:6.0.0'
 	        
 	        // *** OR ***
 	        
-	        // Support Library compatibility version 
+	        // Latest version compatible with the old Support Library
 	        implementation 'com.github.AppIntro:AppIntro:4.2.3'
 	}
 ```
