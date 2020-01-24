@@ -1,0 +1,6232 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>JApiCmp-Report</title>
+<style type="text/css">
+body {
+    font-family: Verdana;
+}
+.title {
+    font-weight: bold;
+}
+.new {
+    color: green;
+}
+.removed {
+    color: red;
+}
+.modified {
+    color: orange;
+}
+.unchanged {
+    color: black;
+}
+thead tr td {
+    font-weight: bold;
+}
+.toc {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #dcdcdc;
+    padding: 5px;
+    background: #ededed;
+    display: inline-block;
+}
+table {
+    border-collapse: collapse;
+}
+table tr td {
+    border: 1px solid black;
+    padding: 5px;
+}
+table thead {
+    background-color: #dee3e9;
+}
+table tbody tr td.matrix_layout {
+    background-color: #dee3e9;
+    font-weight: bold;
+}
+.class {
+    margin-bottom: 2em;
+    border: 1px solid #dcdcdc;
+    padding: 5px;
+    background: #ededed;
+    display: inline-block;
+}
+.class_compatibilityChanges {
+	margin-top: 1em;
+}
+
+.class_fileFormatVersion {
+	margin-top: 1em;
+}
+.class_superclass {
+    margin-top: 1em;
+}
+.class_interfaces {
+    margin-top: 1em;
+}
+.class_fields {
+    margin-top: 1em;
+}
+.class_serialVersionUid {
+    margin-top: 1em;
+}
+.class_constructors {
+    margin-top: 1em;
+}
+.class_methods {
+    margin-top: 1em;
+}
+.class_annotations {
+    margin-top: 1em;
+}
+.label {
+    font-weight: bold;
+}
+.label_class_member {
+    background-color: #4d7a97;
+    display: inline-block;
+    padding: 5px;
+}
+.toc_link {
+    margin-left: 10px;
+    font-size: 0.5em;
+}
+.modifier {
+    font-style: italic;
+}
+.method_return_type {
+
+}
+ul {
+    list-style-type: none;
+    padding: 0px 0px;
+}
+.meta-information {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #ededed;
+    display: inline-block;
+}
+.warnings {
+    margin-top: 1em;
+    font-size: 0.75em;
+}
+.explanations {
+	margin-bottom: 2em;
+}
+
+</style>
+</head>
+<body>
+<span class="title">JApiCmp-Report</span>
+<br>
+<div class="meta-information">
+<table>
+<tr>
+<td>Old:</td><td>/Users/ncorti/Downloads/classes-5.1.0.jar</td>
+</tr>
+<tr>
+<td>New:</td><td>/Users/ncorti/Downloads/classes.jar</td>
+</tr>
+<tr>
+<td>Created:</td><td>2020-01-24T02:32:56.941+0100</td>
+</tr>
+<tr>
+<td>Access modifier filter:</td><td>PUBLIC</td>
+</tr>
+<tr>
+<td>Only modifications:</td><td>false</td>
+</tr>
+<tr>
+<td>Only binary incompatible modifications:</td><td>true</td>
+</tr>
+<tr>
+<td>Ignore missing classes:</td><td>true</td>
+</tr>
+<tr>
+<td>Includes:</td><td>all</td>
+</tr>
+<tr>
+<td>Excludes:</td><td>n.a.</td>
+</tr>
+<tr>
+<td id="semver-label">Semantic Versioning:</td><td id="semver-version">1.0.0</td>
+</tr>
+</table>
+<div class="warnings">
+<span>
+								WARNING: You are using the option '--ignore-missing-classes', i.e. superclasses and
+								interfaces that could not be found on the classpath are ignored. Hence changes
+								caused by these superclasses and interfaces are not reflected in the output.
+							</span>
+</div>
+</div>
+<ul>
+<li>
+<a href="#toc">Classes</a>
+</li>
+</ul>
+    
+<div class="toc" id="toc">
+<span class="label">Classes:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Fully Qualified Name</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.AppIntro">com.github.paolorotolo.appintro.AppIntro</a></td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.AppIntro2">com.github.paolorotolo.appintro.AppIntro2</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.AppIntro2Fragment">com.github.paolorotolo.appintro.AppIntro2Fragment</a></td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.AppIntroBase">com.github.paolorotolo.appintro.AppIntroBase</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.AppIntroBase$PagerOnPageChangeListener">com.github.paolorotolo.appintro.AppIntroBase$PagerOnPageChangeListener</a></td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.AppIntroBaseFragment">com.github.paolorotolo.appintro.AppIntroBaseFragment</a></td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.AppIntroFragment">com.github.paolorotolo.appintro.AppIntroFragment</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.AppIntroViewPager">com.github.paolorotolo.appintro.AppIntroViewPager</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.AppIntroViewPager$OnNextPageRequestedListener">com.github.paolorotolo.appintro.AppIntroViewPager$OnNextPageRequestedListener</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.IndicatorController">com.github.paolorotolo.appintro.IndicatorController</a></td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.model.SliderPage">com.github.paolorotolo.appintro.model.SliderPage</a></td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.model.SliderPagerBuilder">com.github.paolorotolo.appintro.model.SliderPagerBuilder</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.PagerAdapter">com.github.paolorotolo.appintro.PagerAdapter</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.PermissionObject">com.github.paolorotolo.appintro.PermissionObject</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.ProgressIndicatorController">com.github.paolorotolo.appintro.ProgressIndicatorController</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.ScrollerCustomDuration">com.github.paolorotolo.appintro.ScrollerCustomDuration</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.util.CustomFontCache">com.github.paolorotolo.appintro.util.CustomFontCache</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.util.LayoutUtil">com.github.paolorotolo.appintro.util.LayoutUtil</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.util.LogHelper">com.github.paolorotolo.appintro.util.LogHelper</a></td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><a href="#com.github.paolorotolo.appintro.util.TypefaceContainer">com.github.paolorotolo.appintro.util.TypefaceContainer</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="explanations">
+<span>Binary incompatible changes are marked with (!) while source incompatible changes are marked with (*).</span>
+</div>
+<div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.AppIntro">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.AppIntro"></a><span class="modified">MODIFIED&nbsp;(!)</span><span class="">&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier">abstract&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged">class</span>&nbsp;com.github.paolorotolo.appintro.AppIntro</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED_IN_SUPERCLASS</td>
+</tr>
+<tr>
+<td>FIELD_REMOVED_IN_SUPERCLASS</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_fileFormatVersion">
+<span class="label_class_member">class File Format Version:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Old Version</td><td>New Version</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED</span></td><td>51.0</td><td>50.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors"></div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setBarColor(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>31</td><td>22</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setColorDoneText(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>123</td><td>132</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setColorSkipButton(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>133</td><td>142</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setDoneText(java.lang.CharSequence)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>92</td><td>92</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setDoneTextTypeface(java.lang.String)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>102</td><td>112</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setDoneTextTypeface(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>113</td><td>122</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setImageNextButton(android.graphics.drawable.Drawable)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>143</td><td>152</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setNextArrowColor(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>41</td><td>32</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setSeparatorColor(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>51</td><td>42</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setSkipText(java.lang.CharSequence)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>61</td><td>52</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setSkipTextTypeface(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>72</td><td>72</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setSkipTextTypeface(java.lang.String)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>82</td><td>82</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>showDoneButton(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>154</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>showSeparator(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>165</td><td>164</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.AppIntro2">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.AppIntro2"></a><span class="modified">MODIFIED&nbsp;(!)</span><span class="">&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier">abstract&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged">class</span>&nbsp;com.github.paolorotolo.appintro.AppIntro2</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED_IN_SUPERCLASS</td>
+</tr>
+<tr>
+<td>FIELD_REMOVED_IN_SUPERCLASS</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_fileFormatVersion">
+<span class="label_class_member">class File Format Version:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Old Version</td><td>New Version</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED</span></td><td>51.0</td><td>50.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors"></div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setBackgroundView(android.view.View)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>64</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setBarColor(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>48</td><td>54</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setImageSkipButton(android.graphics.drawable.Drawable)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>58</td><td>62</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>showDoneButton(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>39</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.AppIntro2Fragment">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.AppIntro2Fragment"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.AppIntro2Fragment</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass">
+<span class="label_class_member">Superclass:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Superclass</td><td>Compatibility Changes:</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td>com.github.paolorotolo.appintro.AppIntroBaseFragment</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SUPERCLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_interfaces">
+<span class="label_class_member">Interfaces:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Interface</td><td>Compatibility Changes:</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td>com.github.paolorotolo.appintro.ISlideBackgroundColorHolder</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>INTERFACE_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td>com.github.paolorotolo.appintro.ISlideSelectionListener</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>INTERFACE_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_fields"></div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>AppIntro2Fragment()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(java.lang.CharSequence,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>22</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(java.lang.CharSequence,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>43</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(java.lang.CharSequence,<wbr></wbr>java.lang.String,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>java.lang.String,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>57</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>71</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(java.lang.CharSequence,<wbr></wbr>java.lang.String,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>java.lang.String,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>97</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>133</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(com.github.paolorotolo.appintro.model.SliderPage)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>153</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.AppIntroBase">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.AppIntroBase"></a><span class="modified">MODIFIED&nbsp;(!)</span><span class="">&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier">abstract&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged">class</span>&nbsp;com.github.paolorotolo.appintro.AppIntroBase</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_fileFormatVersion">
+<span class="label_class_member">class File Format Version:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Old Version</td><td>New Version</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED</span></td><td>51.0</td><td>50.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces">
+<span class="label_class_member">Interfaces:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Interface</td><td>Compatibility Changes:</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td>com.github.paolorotolo.appintro.AppIntroViewPager$OnNextPageRequestedListener</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>INTERFACE_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_fields">
+<span class="label_class_member">Fields:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Field</td><td>Compatibility Changes:</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">public&nbsp;</span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span></td><td><span class="removed modifier">int
+				(!)
+			</span></td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FIELD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>DEFAULT_COLOR</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_constructors"></div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>addSlide(androidx.fragment.app.Fragment)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>513</td><td>137</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>askForPermissions(java.lang.String[],<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1008</td><td>148</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>dispatchTouchEvent(android.view.MotionEvent)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>257</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>getBackButtonVisibilityWithDone()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>737</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroViewPager</span></td><td>getPager()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>494</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">java.util.List</span></td><td>getSlides()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>504</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>getWizardMode()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>718</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>init(android.os.Bundle)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>587</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>isPagerIndicatorEnabled()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>433</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>isProgressButtonEnabled()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>524</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">boolean</span></td><td>isSkipButtonEnabled()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>449</td><td>61</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>onDonePressed()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>608</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>onDonePressed(androidx.fragment.app.Fragment)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>636</td><td>346</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>onNextPressed()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>599</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>onSkipPressed(androidx.fragment.app.Fragment)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>458</td><td>352</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>onSkipPressed()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>618</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>onSlideChanged()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>628</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>onSlideChanged(androidx.fragment.app.Fragment,<wbr></wbr>androidx.fragment.app.Fragment)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>649</td><td>368</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>onWindowFocusChanged(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>248</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setBackButtonVisibilityWithDone(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>746</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setColorTransitionsEnabled(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>785</td><td>91</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setCustomIndicator(com.github.paolorotolo.appintro.IndicatorController)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>775</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setCustomTransformer(androidx.viewpager.widget.ViewPager$PageTransformer)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>834</td><td>332</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setDepthAnimation()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>824</td><td>324</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setFadeAnimation()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>792</td><td>298</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setFlowAnimation()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>808</td><td>308</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setGoBackLock(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>902</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setImmersiveMode(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>916</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setImmersiveMode(boolean,<wbr></wbr>boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>928</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setIndicatorColor(int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>847</td><td>279</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setNavBarColor(java.lang.String)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>675</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setNavBarColor(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>686</td><td>200</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setNextPageSwipeLock(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>866</td><td>234</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setOffScreenPageLimit(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>572</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setProgressButtonEnabled(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>536</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setProgressIndicator()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>764</td><td>267</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setSlideOverAnimation()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>816</td><td>316</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setSwipeLock(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>884</td><td>252</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setVibrate(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>711</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setVibrateIntensity(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>755</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setWizardMode(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>727</td><td>70</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>setZoomAnimation()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>800</td><td>303</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>showPagerIndicator(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>424</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>showSkipButton(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>444</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="modified modifier">protected
+						&nbsp;(&lt;-&nbsp;
+						public
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">void</span></td><td>showStatusBar(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_LESS_ACCESSIBLE</td>
+</tr>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>697</td><td>214</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.AppIntroBase$PagerOnPageChangeListener">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.AppIntroBase$PagerOnPageChangeListener"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.AppIntroBase$PagerOnPageChangeListener</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>AppIntroBase$PagerOnPageChangeListener(com.github.paolorotolo.appintro.AppIntroBase)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1067</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>onPageScrolled(int,<wbr></wbr>float,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1071</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>onPageScrollStateChanged(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1137</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>onPageSelected(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1102</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.AppIntroBaseFragment">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.AppIntroBaseFragment"></a><span class="modified">MODIFIED&nbsp;(!)</span><span class="">&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier">abstract&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged">class</span>&nbsp;com.github.paolorotolo.appintro.AppIntroBaseFragment</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_fileFormatVersion">
+<span class="label_class_member">class File Format Version:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Old Version</td><td>New Version</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED</span></td><td>51.0</td><td>50.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors"></div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">int</span></td><td>getDefaultBackgroundColor()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>152</td><td>40</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.AppIntroFragment">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.AppIntroFragment"></a><span class="modified">MODIFIED&nbsp;(!)</span><span class="">&nbsp;</span><span class="unchanged modifier">final&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged">class</span>&nbsp;com.github.paolorotolo.appintro.AppIntroFragment</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_fileFormatVersion">
+<span class="label_class_member">class File Format Version:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Old Version</td><td>New Version</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED</span></td><td>51.0</td><td>50.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors"></div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(java.lang.CharSequence,<wbr></wbr>java.lang.String,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>java.lang.String,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>36</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>61</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(java.lang.CharSequence,<wbr></wbr>java.lang.String,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>java.lang.String,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>87</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.AppIntroFragment</span></td><td>newInstance(java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>123</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.AppIntroViewPager">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.AppIntroViewPager"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.AppIntroViewPager</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>AppIntroViewPager(android.content.Context,<wbr></wbr>android.util.AttributeSet)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>28</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>addOnPageChangeListener(com.github.paolorotolo.appintro.AppIntroBase$PagerOnPageChangeListener)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>38</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">int</span></td><td>getLockPage()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>255</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>goToNextSlide()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>44</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>goToPreviousSlide()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>53</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>isFirstSlide(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>65</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>isNextPagingEnabled()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>231</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>isPagingEnabled()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>247</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>onInterceptTouchEvent(android.view.MotionEvent)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>93</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>onTouchEvent(android.view.MotionEvent)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>117</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>performClick()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>111</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setCurrentItem(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>80</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setLockPage(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>259</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setNextPagingEnabled(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>240</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setOnNextPageRequestedListener(com.github.paolorotolo.appintro.AppIntroViewPager$OnNextPageRequestedListener)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>220</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setPagingEnabled(boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>251</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setScrollDurationFactor(double)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>227</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.AppIntroViewPager$OnNextPageRequestedListener">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.AppIntroViewPager$OnNextPageRequestedListener"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier">abstract&nbsp;</span><span class="removed modifier"></span><span class="removed">interface</span>&nbsp;com.github.paolorotolo.appintro.AppIntroViewPager$OnNextPageRequestedListener</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors"></div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier">abstract&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>onCanRequestNextPage()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier">abstract&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>onIllegallyRequestedNextPage()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.IndicatorController">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.IndicatorController"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier">abstract&nbsp;</span><span class="removed modifier"></span><span class="removed">interface</span>&nbsp;com.github.paolorotolo.appintro.IndicatorController</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors"></div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier">abstract&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>initialize(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier">abstract&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">android.view.View</span></td><td>newInstance(android.content.Context)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier">abstract&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>selectPosition(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier">abstract&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setSelectedIndicatorColor(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier">abstract&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setUnselectedIndicatorColor(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.model.SliderPage">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.model.SliderPage"></a><span class="modified">MODIFIED&nbsp;(!)</span><span class="">&nbsp;</span><span class="unchanged modifier">final&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged">class</span>&nbsp;com.github.paolorotolo.appintro.model.SliderPage</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors"></div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.model.SliderPage</span></td><td>copy(java.lang.CharSequence,<wbr></wbr>java.lang.CharSequence,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>java.lang.String,<wbr></wbr>java.lang.String)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.model.SliderPagerBuilder">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.model.SliderPagerBuilder"></a><span class="modified">MODIFIED&nbsp;(!)</span><span class="">&nbsp;</span><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged">class</span>&nbsp;com.github.paolorotolo.appintro.model.SliderPagerBuilder</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_fileFormatVersion">
+<span class="label_class_member">class File Format Version:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Old Version</td><td>New Version</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED</span></td><td>51.0</td><td>50.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors"></div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPagerBuilder</span></td><td>bgColor(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>59</td><td>59</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPage</span></td><td>build()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>97</td><td>98</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPagerBuilder</span></td><td>descColor(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>71</td><td>74</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPagerBuilder</span></td><td>description(java.lang.CharSequence)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>47</td><td>49</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPagerBuilder</span></td><td>descTypeface(java.lang.String)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>87</td><td>89</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPagerBuilder</span></td><td>descTypefaceRes(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>92</td><td>94</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPagerBuilder</span></td><td>imageDrawable(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>53</td><td>54</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPagerBuilder</span></td><td>title(java.lang.CharSequence)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>41</td><td>44</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPagerBuilder</span></td><td>titleColor(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>65</td><td>69</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPagerBuilder</span></td><td>titleTypeface(java.lang.String)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>76</td><td>79</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="modified">MODIFIED&nbsp;(!)</span></td><td><span class="modified modifier">final
+						&nbsp;(&lt;-&nbsp;
+						not_final
+						)&nbsp;
+					</span><span class="unchanged modifier"></span><span class="unchanged modifier">public&nbsp;</span><span class="unchanged modifier"></span><span class="unchanged modifier"></span><span class="unchanged modifier"></span></td><td><span class="unchanged method_return_type">com.github.paolorotolo.appintro.model.SliderPagerBuilder</span></td><td>titleTypefaceRes(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_NOW_FINAL</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>81</td><td>84</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.PagerAdapter">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.PagerAdapter"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.PagerAdapter</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>PagerAdapter(androidx.fragment.app.FragmentManager,<wbr></wbr>java.util.List)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>21</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>destroyItem(android.view.ViewGroup,<wbr></wbr>int,<wbr></wbr>java.lang.Object)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>70</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">int</span></td><td>getCount()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>42</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">java.util.List</span></td><td>getFragments()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>47</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">androidx.fragment.app.Fragment</span></td><td>getItem(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>29</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">java.util.Collection</span></td><td>getRetainedFragments()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>53</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">java.lang.Object</span></td><td>instantiateItem(android.view.ViewGroup,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>62</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.PermissionObject">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.PermissionObject"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.PermissionObject</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>PermissionObject(java.lang.String[],<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">java.lang.String[]</span></td><td>getPermission()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>13</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">int</span></td><td>getPosition()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>17</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.ProgressIndicatorController">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.ProgressIndicatorController"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.ProgressIndicatorController</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces">
+<span class="label_class_member">Interfaces:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Interface</td><td>Compatibility Changes:</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td>com.github.paolorotolo.appintro.IndicatorController</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>INTERFACE_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_fields">
+<span class="label_class_member">Fields:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Field</td><td>Compatibility Changes:</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">public&nbsp;</span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span></td><td><span class="removed modifier">int
+				(!)
+			</span></td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FIELD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>DEFAULT_COLOR</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>ProgressIndicatorController()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods"></div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.ScrollerCustomDuration">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.ScrollerCustomDuration"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.ScrollerCustomDuration</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>ScrollerCustomDuration(android.content.Context)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>ScrollerCustomDuration(android.content.Context,<wbr></wbr>android.view.animation.Interpolator,<wbr></wbr>boolean)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>22</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>ScrollerCustomDuration(android.content.Context,<wbr></wbr>android.view.animation.Interpolator)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setScrollDurationFactor(double)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>29</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>startScroll(int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>34</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.util.CustomFontCache">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.util.CustomFontCache"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.util.CustomFontCache</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>CustomFontCache()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>13</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">android.graphics.Typeface</span></td><td>get(java.lang.String,<wbr></wbr>android.content.Context)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>21</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.util.LayoutUtil">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.util.LayoutUtil"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.util.LayoutUtil</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>LayoutUtil()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>13</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>isRtl(android.content.Context)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.util.LogHelper">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.util.LogHelper"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.util.LogHelper</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>LogHelper()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>23</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>d(java.lang.String,<wbr></wbr>java.lang.Object[])</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>56</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>e(java.lang.String,<wbr></wbr>java.lang.Object[])</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>71</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>e(java.lang.String,<wbr></wbr>java.lang.Throwable,<wbr></wbr>java.lang.Object[])</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>75</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>i(java.lang.String,<wbr></wbr>java.lang.Object[])</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>59</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">java.lang.String</span></td><td>makeLogTag(java.lang.Class)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>41</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>v(java.lang.String,<wbr></wbr>java.lang.Object[])</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>49</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>w(java.lang.String,<wbr></wbr>java.lang.Object[])</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>63</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier">static&nbsp;</span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>w(java.lang.String,<wbr></wbr>java.lang.Throwable,<wbr></wbr>java.lang.Object[])</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>67</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+<div class="class" id="com.github.paolorotolo.appintro.util.TypefaceContainer">
+<div class="class_header">
+<span class="label"><a name="com.github.paolorotolo.appintro.util.TypefaceContainer"></a><span class="removed">REMOVED&nbsp;(!)</span><span class="">&nbsp;</span><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed">class</span>&nbsp;com.github.paolorotolo.appintro.util.TypefaceContainer</span><a href="#toc" class="toc_link">top</a>
+</div>
+<div class="class_compatibilityChanges">
+<span class="label_class_member">Compatibility Changes:</span>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLASS_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_superclass"></div>
+<div class="class_interfaces"></div>
+<div class="class_fields"></div>
+<div class="class_constructors">
+<span class="label_class_member">Constructors:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Constructor</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>TypefaceContainer(java.lang.String,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>17</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td>TypefaceContainer()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONSTRUCTOR_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="class_methods">
+<span class="label_class_member">Methods:</span>
+<table>
+<thead>
+<tr>
+<td>Status</td><td>Modifier</td><td>Type</td><td>Method</td><td>Exceptions</td><td>Compatibility Changes:</td><td>Line Number</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>applyTo(android.widget.TextView)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">java.lang.String</span></td><td>component1()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">int</span></td><td>component2()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">com.github.paolorotolo.appintro.util.TypefaceContainer</span></td><td>copy(java.lang.String,<wbr></wbr>int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">boolean</span></td><td>equals(java.lang.Object)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">int</span></td><td>getTypeFaceResource()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">java.lang.String</span></td><td>getTypeFaceUrl()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">int</span></td><td>hashCode()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setTypeFaceResource(int)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier">final&nbsp;</span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">void</span></td><td>setTypeFaceUrl(java.lang.String)</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><span class="removed">REMOVED&nbsp;(!)</span></td><td><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier">public&nbsp;</span><span class="removed modifier"></span><span class="removed modifier"></span><span class="removed modifier"></span></td><td><span class="removed method_return_type">java.lang.String</span></td><td>toString()</td><td>n.a.</td><td>
+<table>
+<thead>
+<tr>
+<td>Change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>METHOD_REMOVED</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<table>
+<thead>
+<tr>
+<td>Old file</td><td>New file</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n.a.</td><td>n.a.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
