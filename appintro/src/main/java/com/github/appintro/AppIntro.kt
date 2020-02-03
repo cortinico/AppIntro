@@ -161,6 +161,7 @@ abstract class AppIntro : AppIntroBase() {
      * @param showSeparator Set : true to display. false to hide.
      */
     fun showSeparator(showSeparator: Boolean) {
+        super.isColorTransitionsEnabled
         val bottomSeparator = findViewById<View>(R.id.bottom_separator)
         if (showSeparator) {
             bottomSeparator.visibility = View.VISIBLE

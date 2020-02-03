@@ -15,6 +15,8 @@ import androidx.fragment.app.Fragment
  */
 class AppIntroCustomLayoutSlide : Fragment() {
 
+    // TODO Rename to AppIntroCustomLayoutFragment
+
     private var layoutResId = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
