@@ -4,7 +4,21 @@ Please refer to this page if you're **migrating from AppIntro version `5.x` to `
 
 AppIntro `6.x` is coming with a major refactoring and cleanup of the API, as well as Kotlin transition. In this page you will find the summary of all the breaking changes that you potentially need to fix.
 
-If you were already using a [beta version of AppIntro](https://github.com/AppIntro/AppIntro/releases/tag/6.0.0-alpha3), this document might not completely cover your scenario. 
+If you were already using a [beta version of AppIntro](https://github.com/AppIntro/AppIntro/releases/tag/6.0.0-alpha3), this document might not completely cover your scenario.
+
+## Package Change
+
+With the release of AppIntro 6.x we decided to updated the **project package** to reflect the coordinates of the Github Repo.
+
+The package has been updated from:
+
+`com.github.paolorotolo.appintro`
+
+to
+
+`com.github.appintro`
+
+This is obviously a breaking change and you need to updated your AppIntro usage to reflect this change.
 
 ## Several Classes/Methods are now final
 
