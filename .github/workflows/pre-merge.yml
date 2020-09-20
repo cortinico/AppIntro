@@ -2,7 +2,7 @@ name: Pre Merge Checks
 on:
   push:
     branches:
-      - 'master'
+      - '*'
   pull_request:
     branches:
       - '*'
@@ -66,9 +66,25 @@ jobs:
         run: ./gradlew test
 
   build-debug-apk:
+    strategy:
+      fail-fast: false
+      matrix:
+        agp: [""]
+        kotlin: [""]
+        experimental: [false]
+        include:
+          - agp: 4.2.0-alpha14
+            experimental: true
+          - kotlin: 1.4.20-M2
+            experimental: true
+
     runs-on: [ubuntu-latest]
+    continue-on-error: ${{ matrix.experimental }}
     env:
       GRADLE_OPTS: -Dorg.gradle.daemon=false
+      VERSION_AGP: ${{ matrix.agp }}
+      VERSION_KOTLIN: ${{ matrix.kotlin }}
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
